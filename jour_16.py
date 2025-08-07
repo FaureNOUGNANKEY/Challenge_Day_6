@@ -28,7 +28,7 @@ print (difference)
 # date de publication d'un article 
 def publier_article(titre):
     date = datetime.now().strftime("%d %B %Y à %H:%M")
-    print(f"📢 Article publié : '{titre}' le {date}")
+    print(f"Article publié : '{titre}' le {date}")
 
 # etudier les visites sur un site 
 dates = [datetime(2025, 1, 1), datetime(2025, 2, 1), datetime(2025, 3, 1)]
