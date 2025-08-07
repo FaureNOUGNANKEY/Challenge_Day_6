@@ -34,7 +34,3 @@ def publier_article(titre):
 dates = [datetime(2025, 1, 1), datetime(2025, 2, 1), datetime(2025, 3, 1)]
 for date in dates:
     print("Point de données :", date.strftime("%d %B %Y"))
-
-
-
-# print(dir(datetime))
